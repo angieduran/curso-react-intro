@@ -1,0 +1,38 @@
+
+.box{
+    position: relative;
+}
+
+.inputSearch {
+    padding: 0px;
+    width: 60px;
+    height: 60px;
+    background: none;
+    border: 4px solid purple;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: purple;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 300px;
+    background: #3b3640;
+    border-radius: 5px;
+}
+.box i{
+    position: absolute;
+    top: 45%;
+    right: 5px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: purple;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+
